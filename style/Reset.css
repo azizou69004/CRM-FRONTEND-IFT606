@@ -1,0 +1,235 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+/*--login start here--*/
+.alert-danger {
+	color: red;
+}
+
+.reset {
+	font-size: 100%;
+	background: #0086E5;
+	font-family: 'Roboto', sans-serif;
+}
+
+.reset a {
+	text-decoration: none;
+}
+
+.element-main input {
+	text-align: -webkit-center;
+	font-size: 150%;
+}
+
+.reset a:hover {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+}
+/*--elemt style strat here--*/
+.reset .elelment {
+	padding: 1px;
+	margin: 0px; h2 { font-size : 2.5em;
+	color: #fff;
+	text-align: center;
+	margin-top: 2em;
+	font-weight: 700;
+}
+
+
+}
+.reset .element-main {
+	width: 50%;
+	background: #fff;
+	margin: 4em auto 0em;
+	border-radius: 5px;
+	padding: 3em 2em;
+}
+
+.reset .element-main h1 {
+	text-align: center;
+	font-size: 2.3em;
+	color: #0086E5;
+	font-weight: 700;
+}
+
+.reset .element-main p {
+	font-size: 1em;
+	color: black;
+	line-height: 1.5em;
+	margin: 1.5em 0em;
+	text-align: center;
+}
+
+.reset .element-main input[type="email"] {
+	font-size: 1.5em;
+	color: #FFFFF;
+	padding: 1em 0.5em;
+	display: block;
+	width: 95%;
+	outline: none;
+	margin-bottom: 1em;
+	text-align: center;
+	border: 1px solid #B9B9B9;
+}
+
+.reset .element-main input[type="submit"] {
+	font-size: 1em;
+	color: #fff;
+	background: #0086E5;
+	width: 50%;
+	padding: 0.8em 0em;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	border-bottom: 3px solid #045B99;
+	display: block;
+	margin: 1.5em auto 0;
+}
+
+.reset .element-main input[type="submit"]:hover {
+	background: #1D1C1C;
+	border-bottom: 3px solid #2F2F2F;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+}
+/*---copyrights--*/
+.reset .copy-right {
+	margin: 9em 0em 0em 0em;
+}
+
+.reset .copy-right p {
+	text-align: center;
+	font-size: 1em;
+	color: #fff;
+	line-height: 1.5em;
+}
+
+.reset .copy-right p a {
+	color: #fff;
+}
+
+.reset .copy-right p a:hover {
+	color: #000;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+}
+/*--element end here--*/
+/*--media quiries start here--*/
+@media ( max-width :1440px) {
+}
+
+@media ( max-width :1366px) {
+}
+
+@media ( max-width :1280px) {
+	.elelment h2 {
+		margin-top: 1em;
+	}
+	.copy-right {
+		margin: 6em 0em 2em 0em;
+	}
+	.element-main {
+		width: 30%;
+	}
+}
+
+@media ( max-width :1024px) {
+	.element-main {
+		width: 37%;
+	}
+}
+
+@media ( max-width :768px) {
+	.element-main {
+		width: 49%;
+	}
+	.elelment h2 {
+		font-size: 2em;
+	}
+	.element-main {
+		width: 60%;
+	}
+	.element-main h1 {
+		font-size: 2em;
+	}
+}
+
+@media ( max-width :640px) {
+}
+
+@media ( max-width :480px) {
+	.element-main {
+		width: 80%;
+		padding: 3em 1.5em;
+	}
+	.copy-right {
+		margin: 5em 0em 2em 0em;
+	}
+	.copy-right p {
+		font-size: 0.9em;
+	}
+}
+
+@media ( max-width :320px) {
+	.elelment h2 {
+		font-size: 1.5em;
+	}
+	.element-main h1 {
+		font-size: 1.5em;
+	}
+	.element-main {
+		width: 80%;
+		margin: 2em auto 0em;
+		padding: 1.5em 1.5em;
+	}
+	.element-main p {
+		font-size: 0.9em;
+	}
+	.element-main input[type="submit"] {
+		font-size: 0.9em;
+		width: 75%;
+	}
+	.element-main input[type="text"] {
+		font-size: 0.9em;
+		padding: 0.8em 0.5em;
+	}
+	.copy-right {
+		margin: 0em 0em 0em 0em;
+	}
+	.copy-right p {
+		font-size: 0.85em;
+		padding: 0 4px;
+	}
+}
+
+#resetPasswordMsg h3 {
+	
+	text-align: -webkit-center;
+}
+#resetPasswordMsg p {
+	
+	text-align: -webkit-center;
+	color:white;
+}
+#resetPasswordMsgFail h3 {
+	
+	text-align: -webkit-center;
+}
+#resetPasswordMsgFail p {
+	
+	text-align: -webkit-center;
+	color:white;
+}
+
+/*--media quiries end here--*/

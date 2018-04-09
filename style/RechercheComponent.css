@@ -1,0 +1,67 @@
+#recherche {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-top: 1em;
+
+    font-weight: bold;
+}
+
+#recherche > * {
+    margin: 6px;
+    padding: 10px;
+    flex: 0.8 20%;
+}
+
+
+    
+    
+option[value=""][disabled] {
+  color: gray;
+}
+option {
+  color: black;
+}
+
+select:required:invalid {
+  color: gray;
+}
+	
+	@media print {
+  #recherche {
+    visibility: hidden;
+  }
+  
+   #createNewCx {
+    visibility: hidden;
+  }
+  
+  #releve {
+	height: auto;
+	}
+    #print {
+    visibility: hidden;
+  }
+     #nav-side-menu {
+    visibility: hidden;
+  }
+    #toggle-btn {
+    visibility: hidden;
+  }
+  
+  #print-content {
+    visibility: visible;
+  }
+  
+  
+  #print-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}

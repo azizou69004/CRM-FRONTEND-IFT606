@@ -1,0 +1,84 @@
+
+
+div {
+
+    box-sizing: border-box;
+}
+
+#releve, #activite, #etat, #provenance, #prospect, #poste,#titre,#decideur {
+	height: auto;
+	}
+ .grandTitreContacts {
+	width: stretch !important;
+	background-color:#add8e6 !important;
+}
+#wrapperContacts{
+	background-color:white;
+}
+div.container{
+    display: flex;
+    height: 100%;
+    width:80%;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+div.grandTitre{
+    background:lightblue;
+    font-size:25px;
+}
+
+div.uneAdresse{
+    display:flex;
+    flex-direction:column;
+    border: 1px solid pink;
+}
+
+div.unePartie{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+
+}
+
+div.partieContacts{
+    display:flex;
+    flex-direction: column;
+}
+
+div.contactClicable{
+    display:flex;
+    flex-direction: row;
+    bordel: 1px solid pink;
+    background: lightgray;
+}
+
+div.cachable{
+    display: flex;
+    align-content:flex-start;
+    flex-wrap:wrap;
+    flex-direction:row;
+}
+
+div.titreValeur{
+    display:flex;
+    flex-direction: row;
+    font-size:15px;
+    height: 30px;
+}
+.titre{
+    color: black;
+}
+
+.valeur{
+    color: lightslategrey;
+    margin-left:2px;
+}
+
+#nomGroupe {
+	background-color: #add8e6;
+}
+
+

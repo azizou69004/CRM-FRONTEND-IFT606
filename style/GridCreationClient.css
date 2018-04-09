@@ -1,0 +1,42 @@
+.layout {
+    background-color: white;
+	margin-top: 5em;
+	margin-bottom: 5em;
+}
+
+form {
+	margin-top: 5em;
+}
+
+/* Tooltip container */
+.tooltipp {
+	position: relative;
+	display: inline-block;
+}
+
+.form-control {
+    height: auto;
+    }
+
+/* Tooltip text */
+.tooltipp .tooltipptext {
+	visibility: hidden;
+	width: 150px;
+	background-color: #FFF7DC;
+	color: #172A40;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+
+	/* Position the tooltip text - see examples below! */
+	position: absolute;
+	z-index: 1;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltipp:hover .tooltipptext {
+	visibility: visible;
+}
